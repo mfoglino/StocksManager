@@ -29,6 +29,6 @@ public class Application {
       printer.printMessage();
       
       //throw new RuntimeException();
-      throw new Exception();
+      //throw new Exception();
   }
 }
