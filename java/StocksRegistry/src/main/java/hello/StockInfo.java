@@ -42,4 +42,6 @@ public class StockInfo {
 		Venta = venta;
 	}
 
+	//{"Especie": "YPFD", "Variacion": "-1,00", "Cierre": "346,50", "Fecha": "13/06/2014 05:00:20 p.m.", "Precio": "346,50", "Codigo": "10145"}
+
 }
