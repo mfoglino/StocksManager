@@ -26,8 +26,8 @@ class PortfolioSpider(BaseSpider):
 
         self.log("Entre por aca", level=log.INFO)
         return [FormRequest.from_response(response,
-                    formdata={'ctl00$ContentPlaceHolder1$TxtUserName': 'FFOGLINO',
-                              'ctl00$ContentPlaceHolder1$TxtPassword': 'dinastia',
+                    formdata={'ctl00$ContentPlaceHolder1$TxtUserName': self.ppUser,
+                              'ctl00$ContentPlaceHolder1$TxtPassword': self.ppPassword,
                               'ctl00$ContentPlaceHolder1$HdnRes': '1280x800px',
                               '__EVENTTARGET': 'ctl00$ContentPlaceHolder1$LnkLogin'},
                     dont_click = True,
